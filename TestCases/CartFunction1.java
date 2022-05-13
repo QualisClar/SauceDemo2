@@ -54,6 +54,8 @@ public class CartFunction1 {
 			report.Screenshot(name);
 			
 			LogOut salir=new LogOut();
+			
+			salir.salir(report, DM, iteration, name, repo);
 			salir.salir(report, DM, iteration, name, repo);
 			
 			
